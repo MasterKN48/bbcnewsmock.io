@@ -1,0 +1,179 @@
+.navbar{/*Class to implement navbar*/
+  position: fixed;
+  width: auto;
+  margin:0 auto;
+  padding-left: 15%;
+  height: 40px;
+}
+#nav-body {/* It should be use in body to use font*/
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Arial, sans-serif;
+}
+#nav-logo-brand{/*It should use for brand logo im nav bar*/
+   margin-top: 3px;
+   width: 98px;
+   float: left;
+   margin-right: 8px;
+ }
+.nav-top-section{/*It should use for define a menu option.But required to use nav-element*/
+   float: left;
+   border-left: 1px black solid;
+   border-right: 1px black solid;
+   height: 40px;
+   background-color: lightgrey;
+ }
+#nav-ico{/*It should use to show icon for menu option*/
+   width: 25px;
+   margin: 10px 15px;
+   float: left;
+ }
+ #search-box {
+    background-color: #E4E4E4;
+    border:none;
+    font-weight: bold;
+    font-size: 14px;
+    padding:5px;
+    margin: 5px 0 5px 5px;
+    float: left;
+    }
+#magnifying-glass {
+    height:25px;
+    margin-top:5px;
+  }
+.clear {
+      clear:both;
+      }
+#nav-sign-in{/*It use for signin option with nav-icon*/
+   font-weight: bold;
+   font-size: 90%;
+   position: relative;
+   top: 14px;
+   padding-right: 15px;
+ }
+
+#nav-element{/*Always use this inside .navtop-section*/
+   font-weight: bold;
+   font-size: 90%;
+   position: relative;
+   top: 14px;
+   padding-right: 15px;
+   padding-left: 15px;
+}
+.menu{
+  border-top: 1px solid #CCCCCC;
+  background-color:rgb(187,25,25);
+  height:70px;
+}
+#menu-head{
+  margin: 0px auto;
+  font-size: 50px;
+  font-weight: bold;
+  padding-left: 115px;
+  position: relative;
+  float: left;
+  color: white;
+}
+.menu2{
+  background-color: #A91717;
+  height: 25px;
+  padding-left: 110px;
+  width: auto;
+}
+#abc{
+  color: #ffffff;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-right: 10px;
+  border-right: 0.5px lightgrey solid;
+  float: left;
+}
+article{
+  display: inline-block;
+  margin-left: 100px;
+}
+#head{
+  text-shadow:2px;
+  font-size: 20px;
+  font-weight: lighter;
+  text-decoration: underline red;
+}
+ a:hover{
+  color: teal;
+  text-decoration: none;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+#article-cont a{
+  text-decoration: none;
+  color: gray;
+}
+#article-cont a:hover{
+ color: teal;
+ text-decoration: none;
+}
+#article-cont {
+    display: inline;
+    float: left;
+    width: 670px;
+    padding-right: 20px;
+    border-right: 2px solid #CCCCCC;
+}
+#article-summ {
+    color: #5a5a5a;
+    width: 250px;
+    float: left;
+}
+#clock {
+    display:inline-block;
+    height: 20px;
+    position: relative;
+    margin-top: 10px;
+    top: 2px;
+    z-index: -1;
+}
+#date {
+    display: inline;
+    padding-right: 10px;
+    color: #5a5a5a;
+    font-size: 20px;
+    border-right: 1px solid gray;
+}
+.sec-cont{
+    display: inline-block;
+    width: 670px;
+
+}
+#text{
+  display: inline-block;
+  width: 305px;
+  height: auto;
+}
+#main-article-image{
+position: relative;
+float: right;
+z-index: -1;
+}
+#watch-listen {
+    margin-left: 30px;
+    width: 300px;
+    float: right;
+}
+iframe{
+  float: left;
+  margin-right: 30px;
+}
+.side-section{
+  margin-left: 20px;
+  float: right;
+  width: 180px;
+  margin-top:-100px;
+}
+footer{
+  background-color: lightgrey;
+  color: teal;
+  text-align: center;
+  margin-bottom: 0px;
+}
