@@ -1,9 +1,12 @@
+body{
+  background-image:linear-gradient(to right,#cdcdcb,#F9F9F9);
+}
 .navbar{/*Class to implement navbar*/
   position: fixed;
   width: auto;
   margin:0 auto;
-  padding-left: 15%;
-  height: 40px;
+  padding-left: 12%;
+  height: 50px;
 }
 #nav-body {/* It should be use in body to use font*/
   margin: 0;
@@ -80,6 +83,16 @@
   padding-left: 110px;
   width: auto;
 }
+.flex-container {
+  display: flex;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 10px;
+  font-size: 30px;
+}
 #abc{
   color: #ffffff;
   padding-left: 10px;
@@ -108,7 +121,7 @@ a{
 }
 #article-cont a{
   text-decoration: none;
-  color: gray;
+  color: black;
 }
 #article-cont a:hover{
  color: teal;
@@ -120,6 +133,18 @@ a{
     width: 670px;
     padding-right: 20px;
     border-right: 2px solid #CCCCCC;
+}
+#article-contt {
+    display: inline;
+    float: left;
+    width: 670px;
+    padding-right: 20px;
+    color: black;
+}
+#article-contt a{
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
 }
 #article-summ {
     color: #5a5a5a;
