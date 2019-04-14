@@ -7,16 +7,18 @@
 			background-image:linear-gradient(to right,#cdcdcb,#F9F9F9);
 			color:black;
 			text-align:center;
+			margin: 0 0 0 0;
+			padding: 0 0 0 0;
 		}
 		a{
 			color:grey;
 			text-decoration:none;
-		}	
+		}
 		footer{
 		  text-align: center;
 		  margin-bottom: 0px;
 		}
-	
+
 		#loginform{
 			margin-top:150px;
 		    margin-left:auto;
@@ -24,7 +26,7 @@
 			width:270px;
 
 		}
-			
+
 		.input{
 			width:270px;
 		    padding:15px 25px;
@@ -65,17 +67,23 @@
 		.loginbutton:hover{
 			background-color:#A91717;
 		}
-
+		.footer {
+		  position: fixed;
+		  left: 0;
+		  bottom: 0;
+		  width: 100%;
+		  text-align: center;
+		}
 	</style>
 </head>
 <body>
 <div class="flex-container">
 	<div>
-		
+
 	<form id="loginform" method="post" action="index.html">
 		<img align='left' src="bbc-logo.png" alt="brand logo" id="nav-logo-brand"><br>
 		<h1 align="left">Sign In</h1>
-		<input type="text" required class="input" placeholder="E-mail" /> 
+		<input type="text" required class="input" placeholder="E-mail" />
 		<input type="password" required class="input" placeholder="Password" />
 		<input type="submit" class="loginbutton" value="SIGN IN" />
 	</form>
@@ -83,6 +91,10 @@
 
 	</div>
 </div>
-
+<footer class="footer" style="background-image: linear-gradient(to right,#2C3E50,#000000);color: white;">
+      	<p>This is MockUp website created for demo purpose has no meaning to anything in real world.</p>
+        <strong><em>Design By: MKN 2019</em></strong><br>
+          Copyright (c) 2019 All Rights Reserved.
+      </footer>
 </body>
 </html>

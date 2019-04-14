@@ -3,8 +3,10 @@ body{
 }
 .navbar{/*Class to implement navbar*/
   position: fixed;
-  width: auto;
+  width: 100%;
   margin:0 auto;
+  background-image: linear-gradient(to right,#2C3E50,#000000);
+  color: white;
   padding-left: 12%;
   height: 50px;
 }
@@ -13,11 +15,18 @@ body{
   padding: 0;
   font-family: Helvetica, Arial, sans-serif;
 }
+footer{
+  background-image: linear-gradient(to right,#2C3E50,#000000);
+  color: white;
+}
 #nav-logo-brand{/*It should use for brand logo im nav bar*/
    margin-top: 3px;
-   width: 98px;
+   width: 100px;
    float: left;
-   margin-right: 8px;
+   height: 35px;
+   margin-left: -55px;
+   background-color: white;
+   margin-right: 58px;
  }
 .nav-top-section{/*It should use for define a menu option.But required to use nav-element*/
    float: left;
@@ -68,6 +77,9 @@ body{
   background-color:rgb(187,25,25);
   height:70px;
 }
+.menu a{
+  color: white;
+}
 #menu-head{
   margin: 0px auto;
   font-size: 50px;
@@ -82,6 +94,9 @@ body{
   height: 25px;
   padding-left: 110px;
   width: auto;
+}
+.menu2 a{
+  color: white;
 }
 .flex-container {
   display: flex;
